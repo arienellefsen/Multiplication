@@ -1,0 +1,115 @@
+ul.table--list__right {
+    list-style-type: none;
+    padding-top: 50px;
+}
+
+ul.table--list__right li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+span.result--table__left {
+    color: green;
+}
+
+h1.header--multipolication__left {
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input.field--number__left {
+    padding: 16px;
+    text-align: center;
+    font-size: 40px;
+    width: 160px;
+    background: lightgreen;
+    border: none;
+    margin-top: 20px !important;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px auto;
+    display: block;
+}
+
+.button--number {
+    display: block;
+    margin: 0px auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+p.text--field__bottom {
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.guess--table__right {
+    text-align: center;
+    font-size: 80px;
+    margin: 0px auto;
+    display: block;
+}
+
+ul.course-nav li {
+    list-style: none;
+}
+
+.answear--game {
+    display: block;
+    color: 000;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 90px;
+    margin-top: -10px;
+    color: green;
+}
+
+.toggled {
+    background-color: #2f70e1;
+    color: #fff;
+}
+
+button.btn--multiplication {
+    background: #2f70e1;
+    padding: 20px;
+    border: none;
+    color: #fff;
+}
+
+h1.text-header {
+    color: #DEA259;
+    font-size: 28px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+h1.header-top {
+    color: #003366;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 28px;
+    background: #ACD1E9;
+    height: 120px;
+}
+
+@media (max-width: 690px) {
+    input.field--number__left {
+        padding: 16px;
+        text-align: center;
+        font-size: 40px;
+        width: 100%;
+        margin-left: 3px;
+        margin-right: 3px;
+        background: lightgreen;
+        border: none;
+    }
+}
